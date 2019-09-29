@@ -1,0 +1,27 @@
+html, body{
+    margin: 0;
+}
+
+.items{
+    display: inline-block;
+}
+
+.item{
+    width: 200px;
+    height: 20px;
+    background: #eee;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.item-active{
+    border: 1px solid red;
+}
+
+.err{
+	outline: 1px solid red;
+}
+
+.focus{
+	box-shadow: 0 0 5px red;
+}
